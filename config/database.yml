@@ -1,6 +1,6 @@
 development:
   adapter: postgresql
-  database: prelaunchr_development
+  database: prelaunchr_production
   host: localhost
   port: 5432
 test:
