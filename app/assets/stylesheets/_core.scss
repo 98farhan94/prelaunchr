@@ -42,9 +42,9 @@ html.home{
 #home .hero .large{
 	font-weight: bold;
 	font-size: 40px;
-	color: #074E6F;
+	color: #2DCC70;
 	text-transform: uppercase;
-	margin: 85px 0 0 136px;
+	margin: 85px 0 0 320px;
 	position: relative;
 	z-index: 2;
 	letter-spacing: 2px;
@@ -52,15 +52,15 @@ html.home{
 
 #home .hero .small{
 	font-weight: bold;
-	color: #955F5D;
+	color: #9C9C9C;
 	font-size: 18px;
-	margin: 10px 0 0 115px;
+	margin: 10px 0 0 320px;
 	line-height: 30px;
 	position: relative;
 	z-index: 2;
 	text-transform: uppercase;
 	text-align: center;
-	width: 375px;
+	width: 400px;
 	letter-spacing: 1px;
 }
 
@@ -81,7 +81,7 @@ html.home{
 #home .form-wrap .byline{
 	font-size: 15px;
 	text-transform: uppercase;
-	color: #074E6F;
+	color: #CC2D89;
 	text-align: center;
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -92,7 +92,7 @@ html.home{
 	float: left;
 	font-size: 13px;
 	padding: 8px 0 8px 10px;
-	border: 1px solid #074E6F;
+	border: 1px solid #CC2D89;
 	width: 256px;
 	outline: none;
 	letter-spacing: 1px;
@@ -100,7 +100,7 @@ html.home{
 
 #home .form-wrap .submit{
 	width: 143px;
-	background: #074E6F;
+	background: #CC2D89;
 	float: left;
 	height: 37px;
 	line-height: 37px;
@@ -119,7 +119,7 @@ html.home{
 #home .form-wrap.ended .thanks{
 	text-transform: uppercase;
 	font-weight: 500;
-	color: #074e6f;
+	color: #CC2D89;
 	text-align: center;
 	font-size: 22px;
 	letter-spacing: 1px;
@@ -147,7 +147,7 @@ html.home{
 }
 
 #home .form-wrap.ended .go-to a{
-	color: #074e6f;
+	color: #CC2D89;
 	font-size: 19px;
 	font-weight:bold;
 	text-transform: uppercase;
@@ -175,7 +175,7 @@ html.home{
 #home .form-wrap.ended .thanks{
 	text-transform: uppercase;
 	font-weight: 500;
-	color: #074e6f;
+	color: #CC2D89;
 	text-align: center;
 	font-size: 22px;
 	letter-spacing: 1px;
@@ -203,7 +203,7 @@ html.home{
 }
 
 #home .form-wrap.ended .go-to a{
-	color: #074e6f;
+	color: #CC2D89;
 	font-size: 19px;
 	font-weight:bold;
 	text-transform: uppercase;
@@ -248,7 +248,7 @@ html.home{
 
 #refer .header{
 	height: 50px;
-	background: #074E6F;
+	background: #2DCC70;
 	width: 100%;
 	overflow:hidden;
 	z-index: 1;
@@ -302,11 +302,11 @@ html.home{
 }
 
 #refer .mammoth .need{
-	color: #FFF;
+	color: #000;
 	font-size: 38px;
 	text-transform: uppercase;
 	font-weight: bold;
-	margin: 102px 0 0 72px;
+	margin:60px 0 0 40px;
 	display: block;
 	line-height: 56px;
 	letter-spacing: 4px;
@@ -325,7 +325,7 @@ html.home{
 
 #refer .share-wrap .why{
 	font-size: 16px;
-	color: #555556;
+	color: #CC2D89;
 	font-weight: bold;
 	margin-top: 42px;
 }
@@ -335,7 +335,7 @@ html.home{
 	line-height: 40px;
 	text-transform: uppercase;
 	font-weight: bold;
-	color: #074E6F;
+	color: #3B925E;
 	margin-top: 18px;
 	letter-spacing: .13em;
 }
@@ -403,7 +403,7 @@ html.home{
 #refer .prizes .callout{
 	text-align: center;
 	font-size: 16px;
-	color: #074E6F;
+	color: #3B925E;
 	font-weight: bold;
 	margin: 20px 0 0 0;
 	letter-spacing: 2px;
@@ -451,7 +451,7 @@ html.home{
 #refer .prizes .products li.title{
 	height: 100%;
 	text-transform: uppercase;
-	color: #074E6F;
+	color: #9C9C9C;
 	font-weight: 500;
 	font-size: 14px;
 	float: left;
@@ -472,7 +472,7 @@ html.home{
 
 #refer .prizes .products li.product{
 	height: 100%;
-	color: #074E6F;
+	color: #9C9C9C;
 	width: 125px;
 	margin-right: 129px;
 	float: left;
@@ -528,26 +528,26 @@ html.home{
 }
 
 #refer .prizes .products li.product.selected .circle{
-	background: #995F5E !important;
-	border-color: #995F5E !important;
+	background: #2DCC70 !important;
+	border-color: #2DCC70 !important;
 	color: #FFF !important;
 }
 
 
 #refer .prizes .products li.product.selected p{
-	color: #995F5E !important;
+	color: #2DCC70 !important;
 }
 
 #refer .prizes .products li.product:hover .circle{
 	color: #FFF;
-	background: #074E6F;
-	border-color: #074E6F;
+	background: #CC2D89;
+	border-color: #CC2D89;
 }
 
 #refer .prizes .products li.product .tooltip{
 	height: 254px;
 	width: 190px;
-	border: 4px solid #074E6F;
+	border: 4px solid #CC2D89;
 	position: absolute;
 	top: -285px;
 	left: -32px;
@@ -567,14 +567,14 @@ html.home{
 #refer .prizes p.place{
 	text-align: center;
 	font-size: 16px;
-	color: #074E6F;
+	color: #9C9C9C;
 	width: 100%;
 	font-weight: 500;
 	margin-top: 30px;
 }
 
 #refer .prizes p.place span{
-	color: #995F5E;
+	color: #2DCC70;
 }
 
 #refer .prizes p.check{
