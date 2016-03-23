@@ -19,28 +19,28 @@ class User < ActiveRecord::Base
         'html' => 'Free Book<br>Grandma\'s Aplhabet',
       'class' => 'two',
       'image' =>  ActionController::Base.helpers.asset_path(
-        'refer/cream-tooltip@2x.png')
+        'assets/refer/cream-tooltip@2x.png')
     },
     {
       'count' => 10,
         'html' => '$20 Gift Card<br>Amazon/Toys r Us',
       'class' => 'three',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/truman@2x.png')
+        'assets/refer/truman@2x.png')
     },
     {
       'count' => 25,
         'html' => 'Books Bundle<br>Includes Three Books',
       'class' => 'four',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/winston@2x.png')
+        'assets/refer/winston@2x.png')
     },
     {
       'count' => 50,
       'html' => 'Shutterfly Voucher<br> for canvas print',
       'class' => 'five',
       'image' => ActionController::Base.helpers.asset_path(
-        'refer/blade-explain@2x.png')
+        'assets/refer/blade-explain@2x.png')
     }
   ]
 
