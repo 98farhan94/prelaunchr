@@ -19,28 +19,28 @@ class User < ActiveRecord::Base
         'html' => 'Handmade<br>Joey gifts',
       'class' => 'two',
       'image' =>  ActionController::Base.helpers.asset_path(
-        'assets/refer/grandma.jpg')
+          'assets/refer/joey_logo.jpg')
     },
     {
       'count' => 10,
         'html' => 'Oops! The Parenting Handbook<br>by Erik Robertson',
       'class' => 'three',
       'image' => ActionController::Base.helpers.asset_path(
-        'assets/refer/cards.png')
+        'assets/refer/oops.jpg')
     },
     {
       'count' => 25,
         'html' => 'Bundle<br>Includes The fat loss puzzle eBook + personalized 30 min consulting on optimal nutrition for nursing moms by Clarke Russell',
       'class' => 'four',
       'image' => ActionController::Base.helpers.asset_path(
-        'assets/refer/books.png')
+        'assets/refer/fat_loss.png')
     },
     {
       'count' => 50,
       'html' => ' $50 Amazon or ToysrUs<br> gift card',
       'class' => 'five',
       'image' => ActionController::Base.helpers.asset_path(
-        'assets/refer/shutterfly.jpg')
+        'assets/refer/cards.png')
     }
   ]
 
