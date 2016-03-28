@@ -77,7 +77,7 @@ class UsersController < ApplicationController
     elsif current_ip.count > 2
       logger.info('IP address has already appeared three times in our records.
                  Redirecting user back to landing page.')
-      return redirect_to root_path
+      #return redirect_to root_path
     else
       current_ip.count += 1
       current_ip.save
