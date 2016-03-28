@@ -16,28 +16,28 @@ class User < ActiveRecord::Base
   REFERRAL_STEPS = [
     {
       'count' => 5,
-        'html' => 'Free Book<br>Grandma\'s Aplhabet',
+        'html' => 'Handmade<br>Joey gifts',
       'class' => 'two',
       'image' =>  ActionController::Base.helpers.asset_path(
         'assets/refer/grandma.jpg')
     },
     {
       'count' => 10,
-        'html' => '$20 Gift Card<br>Amazon/Toys r Us',
+        'html' => 'Oops! The Parenting Handbook<br>by Erik Robertson',
       'class' => 'three',
       'image' => ActionController::Base.helpers.asset_path(
         'assets/refer/cards.png')
     },
     {
       'count' => 25,
-        'html' => 'Books Bundle<br>Includes Three Books',
+        'html' => 'Bundle<br>Includes The fat loss puzzle eBook + personalized 30 min consulting on optimal nutrition for nursing moms by Clarke Russell',
       'class' => 'four',
       'image' => ActionController::Base.helpers.asset_path(
         'assets/refer/books.png')
     },
     {
       'count' => 50,
-      'html' => 'Shutterfly Voucher<br> for canvas print',
+      'html' => ' $50 Amazon or ToysrUs<br> gift card',
       'class' => 'five',
       'image' => ActionController::Base.helpers.asset_path(
         'assets/refer/shutterfly.jpg')
