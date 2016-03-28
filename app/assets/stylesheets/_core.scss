@@ -43,7 +43,6 @@ html.home{
 	font-weight: bold;
 	font-size: 40px;
 	color: #2DCC70;
-	text-transform: uppercase;
 	margin: 85px 0 0 320px;
 	position: relative;
 	z-index: 2;
@@ -58,7 +57,6 @@ html.home{
 	line-height: 30px;
 	position: relative;
 	z-index: 2;
-	text-transform: uppercase;
 	text-align: center;
 	width: 400px;
 	letter-spacing: 1px;
@@ -333,7 +331,6 @@ html.home{
 #refer .share-wrap .title{
 	font-size: 30px;
 	line-height: 40px;
-	text-transform: uppercase;
 	font-weight: bold;
 	color: #3B925E;
 	margin-top: 18px;
@@ -407,7 +404,6 @@ html.home{
 	font-weight: bold;
 	margin: 20px 0 0 0;
 	letter-spacing: 2px;
-	text-transform: uppercase;
 }
 
 #refer .prizes .progress{
@@ -450,7 +446,6 @@ html.home{
 
 #refer .prizes .products li.title{
 	height: 100%;
-	text-transform: uppercase;
 	color: #9C9C9C;
 	font-weight: 500;
 	font-size: 14px;
@@ -517,6 +512,8 @@ html.home{
 #refer .prizes .products li.product p{
 	text-align: center;
 	font-weight: 500;
+    width: 160px;
+    margin-left: -15px;
 }
 
 #refer .prizes .products li.product:last-child{
@@ -570,7 +567,7 @@ html.home{
 	color: #9C9C9C;
 	width: 100%;
 	font-weight: 500;
-	margin-top: 30px;
+    margin-top: 130px;
 }
 
 #refer .prizes p.place span{
