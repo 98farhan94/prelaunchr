@@ -12,12 +12,12 @@
     </div>
     <div class="share-wrap">
       <p class="why brandon">Breastfeeding is changing, don't leave your friends behind!</p>
-      <p class="title brandon">INVITE FRIENDS &<br> let them know!</p>
+      <p class="title brandon">INVITE FRIENDS &<br> earn prizes!</p>
       <p class="subtitle brandon">Share your unique link via email, Facebook<br>or Twitter and earn rewards for<br>each friend who signs up.</p>
       <div class="copy-link brandon"><%= root_url %>?ref=<%= @user.referral_code %></div>
-      <% twitter_message = "Can't wait for @Joey to launch. Little ones everywhere can now 'fine-dine' in peace. link" %>
+        <% twitter_message = "Can't wait for @thejoeyapp to launch. Little ones everywhere can now 'fine-dine' in peace." %>
       <div class="social-links">
-        <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=JoeyPad" class="fb" target="_blank"></a>
+        <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=Joey%20|%20Breastfeeding%20is%20changing!&description=Can%27t+wait+for+%40thejoeyapp+to+launch.+Little+ones+everywhere+can+now+%27fine-dine%27+in+peace." class="fb" target="_blank"></a>
         <div class="sep"></div>
         <a href="http://twitter.com/share?url=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&text=<%= CGI::escape(twitter_message) %>" class="twit" target="_blank"></a>
       </div>
@@ -43,9 +43,9 @@
 %>
 <div class="prizes <% if found %>prize-<%= found["class"] %><% end %>">
   <div class="page-content">
-    <p class="callout brandon">Here's How It Works:</p>
+    <p class="callout brandon">Here's how it works:</p>
     <ul class="products clearfix">
-      <li class="title brandon"><p class="friends">Friends Joined</p><p class="rewards">Joey</p></li>
+      <li class="title brandon"><p class="friends">Friends joined</p><p class="rewards">Joey</p></li>
       <% stops.each do |stop| %>
         <li class="product brandon <% if stop["selected"] %>selected<% end %> <% if stop["class"] == 'five' %>last<% end %>">
           <div class="circle"><%= stop["count"] %></div>
@@ -75,7 +75,7 @@
     %>
 
     <% if referrals_count == 0 %>
-      <p class="place brandon"><span>No</span> friends have joined...Yet!</p>
+      <p class="place brandon"><span>No</span> friends have joined...yet!</p>
     <% else %>
       <p class="place brandon"><span><%= referrals_count %></span> <%= words %> joined</p>
     <% end %>
