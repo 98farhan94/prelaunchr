@@ -31,7 +31,7 @@ config.serve_static_files = true
   # config.force_ssl = true
 
   # See everything in the log (default is :info)
-  # config.log_level = :debug
+   config.log_level = :debug
 
   # Prepend all log lines with the following tags
   # config.log_tags = [ :subdomain, :uuid ]
@@ -49,7 +49,7 @@ config.serve_static_files = true
   # config.assets.precompile += %w( search.js )
 
   # Disable delivery errors, bad email addresses will be ignored
-  # config.action_mailer.raise_delivery_errors = false
+config.action_mailer.raise_delivery_errors = true
 
   # Enable threaded mode
   # config.threadsafe!
