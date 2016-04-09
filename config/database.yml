@@ -2,7 +2,16 @@ development:
   adapter: postgresql
   database: prelaunchr_development
   host: localhost
+  username: postgres
+  password: postgres
+
+  encoding: unicode
+  pool: 10
 test:
   adapter: postgresql
   database: prelaunchr_test
   host: localhost
+  username: postgres
+  password: postgres
+  encoding: unicode
+  pool: 10
